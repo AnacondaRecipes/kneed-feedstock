@@ -32,7 +32,7 @@ test:
   commands:
   - pip check
 about:
-  home: http://github.com/arvkevi/kneed
+  home: https://github.com/arvkevi/kneed
   license: MIT
   license_family: MIT
   license_file: LICENSE
