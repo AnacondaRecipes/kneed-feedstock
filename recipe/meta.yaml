@@ -41,7 +41,7 @@ about:
     This repository is an attempt to implement the kneedle algorithm. 
     Given a set of x and y values, kneed will return the knee point of the function. 
     The knee point is the point of maximum curvature.
-  doc_url: https://kneed.readthedocs.io/en/stable/
+  doc_url: https://kneed.readthedocs.io
   dev_url: https://github.com/arvkevi/kneed
 
 extra:
