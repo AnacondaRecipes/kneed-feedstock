@@ -22,7 +22,6 @@ requirements:
     - python
     - numpy >=1.14.2
     - scipy >=1.0.0
-    - scikit-learn
 test:
   imports:
     - kneed
