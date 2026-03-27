@@ -10,6 +10,7 @@ source:
   sha256: a4847ac4f1d04852fea278d5de7aa8bfdc3beb7fbca4a182fec0f0efee43f4b1
 
 build:
+  noarch: python
   number: 0
   script: {{ PYTHON }} -m pip install . --no-build-isolation --no-deps -vv
 
@@ -44,5 +45,12 @@ about:
   dev_url: https://github.com/arvkevi/kneed
 
 extra:
+  skip-lints:
+    - host_section_needs_exact_pinnings
+    - avoid_noarch
+  anaconda-services:
+    ref: https://anaconda.zendesk.com/agent/tickets/80856
+    reason: Client request
   recipe-maintainers:
+    - ianaobi
     - arvkevi
